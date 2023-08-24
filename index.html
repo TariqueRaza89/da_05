@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate days - from start to end date with datepicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <div class="wrapper">
+      <h3>You want to know how many days are between 2 dates?</h3>
+      <div class="date-picker-wrapper">
+        <div>
+          <label for="s__date">Select start date</label>
+          <input type="date" class="from-day" id="s__date" />
+        </div>
+        <div>
+          <label for="end__date">Select end date</label>
+          <input type="date" class="to-day" id="end__date" />
+        </div>
+      </div>
+    </div>
+    <div class="date-content">
+      <h1>Your age in days:</h1>
+      <p class="date"><span></span> Days</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
